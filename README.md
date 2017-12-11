@@ -12,7 +12,7 @@ yarn install
 parcel
 ```
 
-This assumings that `./node_modules/.bin/` is in your `PATH`.
+This assumes that `./node_modules/.bin/` is in your `PATH`.
 
 # Build for production
 
