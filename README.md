@@ -9,15 +9,13 @@ yarn install
 # Run
 
 ```sh
-parcel
+yarn start
 ```
 
 This assumes that `./node_modules/.bin/` is in your `PATH`.
 
 # Build for production
 
-TODO: the following does not work.
-
 ```sh
-parcel build
+yarn build
 ```

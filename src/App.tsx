@@ -1,13 +1,17 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 
-export default class App extends Component<{}, {}> {
+interface Props {
+  prop1?: number;
+}
+
+export default class App extends Component<Props, {}> {
   render() {
     return (
-      <>
-        <div>Fragments</div>
-        <div>also</div>
-        <div>supported</div>
-      </>
+      <Fragment>
+        <div>one</div>
+        <div>two</div>
+        <div>three</div>
+      </Fragment>
     );
   }
 }
